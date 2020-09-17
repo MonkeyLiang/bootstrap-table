@@ -531,6 +531,7 @@ class BootstrapTable {
     let timeoutId = 0
     let $keepOpen
     let switchableCount = 0
+    const opts = this.options
 
     if (this.$toolbar.find('.bs-bars').children().length) {
       $('body').append($(this.options.toolbar))
